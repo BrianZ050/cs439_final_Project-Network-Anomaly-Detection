@@ -1,0 +1,34 @@
+[
+  {
+    "name": "LocalOutlierFactor",
+    "roc_auc": 0.9586164659915349,
+    "average_precision": 0.9973947690861527,
+    "precision": 0.9964380057089584,
+    "recall": 0.8977593951794193,
+    "f1": 0.9445283589973381
+  },
+  {
+    "name": "PCAReconstruction",
+    "roc_auc": 0.9573047732092057,
+    "average_precision": 0.9975796487213908,
+    "precision": 0.9967829433708688,
+    "recall": 0.8936853631005065,
+    "f1": 0.9424229156652881
+  },
+  {
+    "name": "IsolationForest",
+    "roc_auc": 0.9215444482399923,
+    "average_precision": 0.9946280500515998,
+    "precision": 0.9958817784894309,
+    "recall": 0.702405551785393,
+    "f1": 0.8237862670973223
+  },
+  {
+    "name": "OneClassSVM",
+    "roc_auc": 0.9144359588501323,
+    "average_precision": 0.9951466388712354,
+    "precision": 0.9967874515599912,
+    "recall": 0.8765650640749009,
+    "f1": 0.932818622286496
+  }
+]

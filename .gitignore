@@ -1,0 +1,29 @@
+# Environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data files (these are too large for GitHub)
+CSV/
+# System files
+.DS_Store
+Thumbs.db
+
+# Large artifact files
+artifacts/Test_Metrics/test_scores.csv
+artifacts/Test_Metrics/test_original_classes.csv
+
+# LaTeX auxiliary files
+report/*.aux
+report/*.log
+report/*.out
+report/*.fls
+report/*.fdb_latexmk
